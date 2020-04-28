@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Class2_Operator
+    - Practice1_OperatorMethod
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -27,9 +28,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -38,23 +47,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 11156}
     - Class: 114
-      Script: {instanceID: 11204}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11314}
     - Class: 114
-      Script: {instanceID: 11350}
+      Script: {instanceID: 11354}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11738}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 12116}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 12302}
     - Class: 114
-      Script: {instanceID: 12586}
+      Script: {instanceID: 12590}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 12938}
+    - Class: 114
+      Script: {instanceID: 29560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -510,7 +521,25 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 28354a6e2f612bcb796913fb53afed7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Class3_Method
+  - hash:
+      serializedVersion: 2
+      Hash: aed2b8aa5ac7989d7f8abe42b4e1d06f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Person
+  - hash:
+      serializedVersion: 2
+      Hash: 68f0aae3a76f5a60fcf652a13cc8bf83
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Practice1_OperatorMethod
   platform: 20
   scenePathNames:
   - "Assets/\u7B2C\u4E8C\u7AE0 \u6578\u5B78 \u6BD4\u8F03\u8207\u908F\u8F2F\u904B\u7B97\u503C.unity"
-  playerPath: C:/Unity_Charp/Lion_CSharp/Lion_CSharp_2
+  playerPath: C:/Unity/Unity_Lion_CSharp/Class2

@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany27
+  companyName: yasa
   productName: "Unity_Csharp \u7B2C\u4E8C\u7AE0\u7DF4\u7FD2"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
