@@ -204,9 +204,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 366460356}
+      - m_Target: {fileID: 681430395}
         m_MethodName: Attack
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -266,7 +266,7 @@ MonoBehaviour:
   bathealing: 10
   batHP: 100
   batATK: 100
-  seraimuHP: 0
+  suraimu1: {fileID: 0}
   result: {fileID: 1105766885}
 --- !u!1001 &407480919
 PrefabInstance:
@@ -424,12 +424,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1105766883}
-        m_MethodName: 
+      - m_Target: {fileID: 2118888935}
+        m_MethodName: Add
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -733,12 +733,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1105766883}
-        m_MethodName: 
+      - m_Target: {fileID: 681430395}
+        m_MethodName: Add
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -780,6 +780,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681412253}
   m_CullTransparentMesh: 0
+--- !u!1 &681430392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012081666484, guid: a300b93764f24c94b9ddb3445d906548,
+    type: 3}
+  m_PrefabInstance: {fileID: 407480919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &681430395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681430392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15ab7de243a2ba4f943ea88b28ae672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bathealing: 10
+  batHP: 100
+  batATK: 10
+  suraimu1: {fileID: 2118888935}
+  result: {fileID: 1105766885}
 --- !u!1 &774118839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,10 +1052,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050be5e2712daa846ac9b02337ed6721, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seraimuhealing: 10
-  seraimuHP: 100
-  seraimuATK: 10
+  suraimuhealing: 10
+  suraimuHP: 100
+  suraimuATK: 10
   batHP: 0
+  bat1: {fileID: 0}
   result: {fileID: 1105766885}
 --- !u!114 &1105766889
 MonoBehaviour:
@@ -1049,7 +1073,7 @@ MonoBehaviour:
   bathealing: 10
   batHP: 100
   batATK: 10
-  seraimuHP: 0
+  suraimu1: {fileID: 0}
   result: {fileID: 1105766885}
 --- !u!1 &1127771942
 GameObject:
@@ -1455,9 +1479,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1105766887}
+      - m_Target: {fileID: 2118888935}
         m_MethodName: Attack
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1514,10 +1538,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050be5e2712daa846ac9b02337ed6721, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seraimuhealing: 10
-  seraimuHP: 100
-  seraimuATK: 10
+  suraimuhealing: 10
+  suraimuHP: 100
+  suraimuATK: 10
   batHP: 0
+  bat1: {fileID: 0}
   result: {fileID: 1105766885}
 --- !u!1 &1881509292
 GameObject:
@@ -1679,3 +1704,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2118888932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012979649092, guid: 9c8e6b52a146b2d4994f42592a19bba0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1773025583}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2118888935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118888932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050be5e2712daa846ac9b02337ed6721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  suraimuhealing: 10
+  suraimuHP: 100
+  suraimuATK: 10
+  batHP: 0
+  bat1: {fileID: 681430395}
+  result: {fileID: 1105766885}
