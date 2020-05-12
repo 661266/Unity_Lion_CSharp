@@ -8,12 +8,13 @@ public class Level : MonoBehaviour
     public string NextSceneName;
     public void NextScene()
     {
-        //如果場景名稱為Menu
+       /* //如果場景名稱為Menu
         if (NextSceneName == "Menu")
         {
             //Destroy刪除物件
             Destroy(GameObject.Find("Bgm").gameObject);
         }
+        */
         if (NextSceneName == "Movie")
         {
             //GameObject.Find(物件名稱).SetActive判斷物件是否要開啟
