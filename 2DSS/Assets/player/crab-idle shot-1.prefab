@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6564834449970723051}
   - component: {fileID: 312823026267524347}
   - component: {fileID: 8116282656212062993}
+  - component: {fileID: -2901787175698903865}
   m_Layer: 0
   m_Name: crab-idle shot-1
   m_TagString: Untagged
@@ -133,3 +134,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-2901787175698903865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564834449970723052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45b6932ef84b784684b19448e291187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.07
+  DeleteTime: 2
+  Effect: {fileID: 100006, guid: 2e7e92bc7175b744ea40878dedfa79e4, type: 3}
+  EffectAudio: {fileID: 0}

@@ -1172,6 +1172,7 @@ GameObject:
   - component: {fileID: 926160765}
   - component: {fileID: 926160764}
   - component: {fileID: 926160768}
+  - component: {fileID: 926160769}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1277,6 +1278,20 @@ MonoBehaviour:
   SoundCloseSprite: {fileID: 21300000, guid: 9137a136d6ee03f44b7fdb622ea403e8, type: 3}
   SoundSlider: {fileID: 1180197691}
   ScreenSizeDropdown: {fileID: 1102254306}
+--- !u!114 &926160769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926160763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a66b961ba3623f0449b131c4fca65449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Control: 0
 --- !u!1 &1011682045
 GameObject:
   m_ObjectHideFlags: 0
