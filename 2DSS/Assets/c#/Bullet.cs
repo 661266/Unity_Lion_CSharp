@@ -34,12 +34,14 @@ public class Bullet : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         //玩家子彈打到有Collider2D物件,就檢測該物體標籤是否為Enemy
-        if(other.GetComponent<Collider2D>().tag== "Enemy"&&gameObject.tag=="PlayerBullet")
+        if(other.GetComponent<Collider2D>().tag== "Enemy" && gameObject.tag == "PlayerBullet")
         {
             //動態生成爆炸音效
             //other.transform.position兩個物件碰撞的位置
             //other.transform.rotation兩個物件碰撞的旋轉直
             Instantiate(Effect, other.transform.position, other.transform.rotation);
+            //玩家子彈打到敵機,玩家加分
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().Score();
             //爆炸音效
             EffectAudio.Play();
             //敵機消滅
@@ -47,7 +49,26 @@ public class Bullet : MonoBehaviour
             //自己子彈物倩被消滅
             Destroy(gameObject);
         }
+
+        //玩家子彈打到敵機子彈,互相刪除
+        if (other.GetComponent<Collider2D>().tag == "EnemyBullet" && gameObject.tag== "PlayerBullet")
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+
+        }
+        //敵機子彈打到玩家
+        if (other.GetComponent<Collider2D>().tag =="Player" && gameObject.tag == "EnemyBullet")
+        {
+            //敵機打到玩家呼叫玩家物件身上的Player腳本中的HurtPlayer進行扣血
+            other.GetComponent<Player>().HurtPlayer(10f);
+        }
+
+
+
     }
+
+
 
 }
 

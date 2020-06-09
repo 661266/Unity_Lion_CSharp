@@ -22,22 +22,20 @@ public class Movie : MonoBehaviour
         //Timer = Timer + 0.1f;
         //Timer += 0.1f;
         Timer += Time.deltaTime;
-        if(Timer > 3f)
+        if (Timer > 3f)
         {
             //Movie_.isPlaying=true 影片還沒撥放結束
             //Movie_.isPlaying=false 影片撥放結束
             if (Movie_.isPlaying == false)
-            Application.LoadLevel("Game");
-       
-
-
-
+                Application.LoadLevel("Game");
 
         }
-
-
     }
-
-
-
+       
+    public void NextScene()
+        {
+            Application.LoadLevel("Game");
+        }
 }
+
+

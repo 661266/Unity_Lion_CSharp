@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - FxTemporaire
   - PlayerBullet
+  - EnemyBullet
+  - LevelButton
   layers:
   - Default
   - TransparentFX

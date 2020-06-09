@@ -340,6 +340,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Menu
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 0
+  LevelButton: []
 --- !u!1 &143159070
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +428,7 @@ GameObject:
   - component: {fileID: 288584125}
   m_Layer: 5
   m_Name: Button (3)
-  m_TagString: Untagged
+  m_TagString: LevelButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -552,6 +556,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Movie
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 500
+  LevelButton: []
 --- !u!1 &445960113
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,7 +575,7 @@ GameObject:
   - component: {fileID: 445960118}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: LevelButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -695,6 +703,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Movie
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 100
+  LevelButton: []
 --- !u!1 &491723659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,7 +1030,7 @@ GameObject:
   - component: {fileID: 583960566}
   m_Layer: 5
   m_Name: Button (4)
-  m_TagString: Untagged
+  m_TagString: LevelButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1146,6 +1158,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Movie
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 600
+  LevelButton: []
 --- !u!1 &679994992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,7 +1344,7 @@ GameObject:
   - component: {fileID: 1110572154}
   m_Layer: 5
   m_Name: Button (8)
-  m_TagString: Untagged
+  m_TagString: LevelButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1456,6 +1472,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Movie
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 1000
+  LevelButton: []
 --- !u!1 &1131500554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,7 +1491,7 @@ GameObject:
   - component: {fileID: 1131500559}
   m_Layer: 5
   m_Name: Button (1)
-  m_TagString: Untagged
+  m_TagString: LevelButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1599,6 +1619,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Movie
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 300
+  LevelButton: []
 --- !u!1 &1236324262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,7 +1638,7 @@ GameObject:
   - component: {fileID: 1236324267}
   m_Layer: 5
   m_Name: Button (5)
-  m_TagString: Untagged
+  m_TagString: LevelButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1742,6 +1766,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Movie
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 700
+  LevelButton: []
 --- !u!1 &1322863861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,7 +2109,7 @@ GameObject:
   - component: {fileID: 1807356634}
   m_Layer: 5
   m_Name: Button (2)
-  m_TagString: Untagged
+  m_TagString: LevelButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2209,6 +2237,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Movie
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 400
+  LevelButton: []
 --- !u!1 &1946400310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,7 +2330,7 @@ GameObject:
   - component: {fileID: 1968143270}
   m_Layer: 5
   m_Name: Button (7)
-  m_TagString: Untagged
+  m_TagString: LevelButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2426,6 +2458,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Movie
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 900
+  LevelButton: []
 --- !u!1 &2091259150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,7 +2637,7 @@ GameObject:
   - component: {fileID: 2147390565}
   m_Layer: 5
   m_Name: Button (6)
-  m_TagString: Untagged
+  m_TagString: LevelButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2729,3 +2765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Movie
+  LevelID: 0
+  Leveltext: {fileID: 0}
+  SetHeightScore: 800
+  LevelButton: []
